@@ -9,7 +9,7 @@ def most_frequent_word(x):
     max_value = 0
     max_word = ""
     for word in f:
-        if max_value < f[word]:
+        if max_value <= f[word]:
             max_value = f[word]
             max_word = word
 
